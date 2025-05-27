@@ -1,8 +1,8 @@
 ---
-site_name: LAB-2354 - Webex Contact Center Lab&colon; Solution Use-case and APIs # This must begin with the session ID
-site_description: LAB-2354 - Webex Contact Center Lab&colon; Solution Use-case and APIs # must be same as "site_name"
+site_name: CCW Labs - Customer Experience AI Labs # This must begin with the session ID
+site_description: CCW Labs - Customer Experience AI Labs # must be same as "site_name"
 site_author: John Doe
-copyright: Copyright &copy; 2024 Cisco
+copyright: Copyright &copy; 2025 Cisco
 theme:
   name: material
   features:
@@ -87,6 +87,4 @@ nav:
       - Conclusion: conclusion.md
   # - Topologies: topologies.md
   - Cheat Sheet: cheatsheet.md
-  - <z onclick='(function(){window.open("https://webexcc-sa.github.io","_blank")}())'>Additional Resources</z>: additionalResources.md #https://webexcc-sa.github.io
-
-
+  

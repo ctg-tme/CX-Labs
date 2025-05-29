@@ -1,5 +1,5 @@
-# Lab Guide for WebexOne Lab LAB-2354
+# Lab Guide for CCW Labs
 
-Web guide link: https://webexcc-sa.github.io/LAB-2354/
+Web guide link: https://ctg-tme.github.io/CX-Labs/pdf/document.pdf
 
 PDF guide link: https://webexcc-sa.github.io/LAB-2354/pdf/document.pdf

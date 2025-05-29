@@ -10,7 +10,8 @@ Although the lab design and configuration examples could be used as a reference,
 
 ## Lab Access
 
-In these series of labs you will be using the same tenant as other participants, please DO NOT make any changes unless specified in this guide. 
+!!! Warning
+      In these series of labs you will be using the same tenant as other participants, please DO NOT make any changes unless specified in this guide. 
 
 You will be using Chrome profiles to move between the different contact center personas (admin, agent and supervisor). Each chrome profile has been pre-configured with the required credentials and bookmarks. 
 

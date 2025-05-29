@@ -1,10 +1,10 @@
 // Function to update the attendee ID display
 function updateAttendeeIdDisplay(attendeeId) {
-    // Update the main attendee ID display (if it exists)
-    const attendeeElement = document.getElementById('attendee-id');
-    if (attendeeElement) {
-        attendeeElement.textContent = attendeeId;
-    }
+    // Update all elements with the ID "attendee-id" (if there are multiple)
+    const attendeeElements = document.querySelectorAll('#attendee-id');
+    attendeeElements.forEach((element) => {
+        element.textContent = attendeeId;
+    });
 
     // Update all references to the attendee ID in the document
     const idReferences = document.querySelectorAll('.id-reference');

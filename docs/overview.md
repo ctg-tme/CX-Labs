@@ -24,10 +24,6 @@ Before you get started click this button to generate your Attendee ID.  <button 
 
 Your Attendee ID is: <span id="attendee-id">---</span>
 
-- Documentation Section 1: <span class="id-reference">---</span>
-- Documentation Section 2: <span class="id-reference">---</span>
-- Documentation Section 3: <span class="id-reference">---</span>
-
 Open the Chrome Profile named "CX Labs Admin".
 
 Navigate to [Webex Control Hub](https://admin.webex.com){:target="_blank"} and login using the stored credentials.

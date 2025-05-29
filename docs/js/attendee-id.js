@@ -24,10 +24,26 @@ function checkAndUpdateAttendeeId() {
     }
 }
 
-// Function to generate a new attendee ID
+// Set to track previously generated IDs
+const usedIds = new Set();
+
+// Function to generate a new unique attendee ID
 function generateAttendeeId() {
-    // Generate a random number between 100 and 999
-    const attendeeId = Math.floor(100 + Math.random() * 900);
+    // Generate a unique ID
+    let attendeeId;
+
+    // Keep generating until we find a unique ID
+    do {
+        attendeeId = Math.floor(100 + Math.random() * 900);
+    } while (usedIds.has(attendeeId));
+
+    // Add the generated ID to the set
+    usedIds.add(attendeeId);
+
+    // If more than 300 IDs are generated, reset the set to allow repeats
+    if (usedIds.size > 300) {
+        usedIds.clear(); // Clear the set to allow duplicates after 50 IDs
+    }
 
     // Save the ID to localStorage
     localStorage.setItem('attendeeId', attendeeId);

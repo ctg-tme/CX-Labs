@@ -35,3 +35,6 @@ Image:
 ## Section 2
 
 More content
+
+
+<span id="attendee-id">---</span>

@@ -37,6 +37,8 @@ extra:
   generator: false
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - js/attendee-id.js
 plugins:
   - search
   # - with-pdf:

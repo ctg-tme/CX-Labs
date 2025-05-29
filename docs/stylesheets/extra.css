@@ -45,3 +45,21 @@ text-decoration: inherit; */
 copy:hover::after {
     color: #00bdeb;
 }
+
+/* Style for the button */
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: for rounded corners */
+}
+
+/* Style for the input element */
+input[type="text"] {
+    border: 2px solid black;
+    padding: 5px;
+    width: 100%; /* Optional: make the input full-width */
+    box-sizing: border-box; /* Optional: include padding in width */
+}

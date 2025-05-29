@@ -10,19 +10,32 @@ Although the lab design and configuration examples could be used as a reference,
 
 ## Lab Access
 
-In this lab you will be using your personal mobile for making calls into Webex Contact Center. We will be using the same tenant for all the participants, please only make changes as specified in the guide. 
+In these series of labs you will be using the same tenant as other participants, please DO NOT make any changes unless specified in this guide. 
 
+You will be using Chrome profiles to move between the different contact center personas (admin, agent and supervisor). Each chrome profile has been pre-configured with the required credentials and bookmarks. 
 
 ---
 
 
+
 ## Getting Started
 
-> Log into Webex on your PC:
->
-> - Username: <copy><w class="login">Provided by proctor</w></copy>
-> - Password: <copy><w class="PW">Provided by proctor</w></copy>
-> 
+Before you get started click this button to generate your Attendee ID.  <button onclick="generateAttendeeId()">Generate Attendee ID</button>
+
+Your Attendee ID is: <span id="attendee-id">---</span>
+
+- Documentation Section 1: <span class="id-reference">---</span>
+- Documentation Section 2: <span class="id-reference">---</span>
+- Documentation Section 3: <span class="id-reference">---</span>
+
+Open the Chrome Profile named "CX Labs Admin".
+
+Navigate to [Webex Control Hub](https://admin.webex.com){:target="_blank"} and login using the stored credentials.
+
+
+- Username: <copy><w class="login">Provided by proctor</w></copy>
+- Password: <copy><w class="PW">Provided by proctor</w></copy>
+
 
 ---
 > Log into [Webex Control Hub](https://admin.webex.com){:target="_blank"} in Chrome

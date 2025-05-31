@@ -31,4 +31,4 @@ Navigate to [Webex Control Hub](https://admin.webex.com){:target="_blank"} and l
 
 Go to Contact Center from the left side navigation panel, and under Quick Links, click on **Webex AI Agent**. This will open our AI Agent Studio. You are ready to proceed with your first lab. 
 
-![Profiles](../assets/L1M6_OpenWebexAI.gif)
+![Profiles](../assets/OpenWebexAI.gif)

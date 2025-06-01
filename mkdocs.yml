@@ -83,8 +83,8 @@ nav:
       # - Welcome: welcome.md
       - Overview: overview.md
       - Lab 1 - Build Your Own AI Agent: lab1_BuildYourOwnAIAgent.md
-      - Lab 2 - Last Agent Routing Using Simulated Auto CSAT: lab2_LARbasedOnCSAT.md
-      - Lab 3 - Creating a Self Service Support Option in an Emergency: lab3_CreatingSelfService.md
+      - Lab 2 - Setup a Voice Channel for your AI Agent: lab2_AIAgentVoiceFlow.md
+      - Lab 3 - Enable SMS to communicate with your AI Agent: lab3_AIAgentSMS.md
       - Conclusion: conclusion.md
   # - Topologies: topologies.md
   - Cheat Sheet: cheatsheet.md

@@ -47,7 +47,7 @@ Select one of the options and follow the instructions:
     <br>
     <br>
     ![Profiles](../assets/create_your_own_KB.gif)
-    
+
 ### Creating an Autonomous AI Agent
 
 ??? Note "Create your own AI Agent"

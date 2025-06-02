@@ -31,7 +31,7 @@ Select one of the options and follow the instructions:
 
 ??? webex "Use a generic KB"
     1. From the AI Agent Studio, select the notebook icon on the left navigation menu. This is where you will manage your Knowledge Bases. 
-    2. Click **Create Knowledge Base**, provide Knowledge base name as <span id="attendee-id">---</span>_AI_KB, then click **Create**.
+    2. Click **Create Knowledge Base**, provide Knowledge base name as **<span id="attendee-id">---</span>_AI_KB**, then click **Create**.
     3. Go to the **Files** tab and select the option **Add File**. You will find a generic KBs in the Desktop folder, **DrJames_KB.txt**. 
     4. Upload the generic KB and select the option **Process Files**.
     <br>
@@ -41,9 +41,9 @@ Select one of the options and follow the instructions:
 ??? webex "Create your own KB"
     1. Navigate to your company's website and find the information you would like to include, e.g., FAQ, company policies, PDF with information about a product your company offers, etc. 
     2. From the AI Agent Studio, select the notebook icon on the left navigation menu. This is where you will manage your Knowledge Bases. 
-    3. Click **Create Knowledge Base**, provide Knowledge base name as <span id="attendee-id">---</span>_AI_KB, then click **Create**.
+    3. Click **Create Knowledge Base**, provide Knowledge base name as **<span id="attendee-id">---</span>_AI_KB**, then click **Create**.
     4. Select the **Documents** tab and click the option **+ Create Document**. 
-    5. Enter the Document name <span id="attendee-id">---</span>_AI_DOC. Select the option **Add to new category**, name the category anything that matches the information you are adding eg FAQ, product information, etc. 
+    5. Enter the Document name **<span id="attendee-id">---</span>_AI_DOC**. Select the option **Add to new category**, name the category anything that matches the information you are adding eg FAQ, product information, etc. 
     6. Copy the content you want to use for your KB from your company's website and paste it in the document you created. If you are copying the content from a website, make sure you only paste the text. Click Save on the top right corner. 
     7. You could also upload a document with public information of your company, simply go to the **Files** tab and select the option **Add File**. Once you upload the file, select the option **Process Files**. 
     <br>
@@ -57,13 +57,11 @@ Select one of the options and follow the instructions:
     2. Select **Start from Scratch** and click **Next**
     3. On **Create an AI agent** page select the type of agent: **Autonomous**
     10. A new section called **Add the essential details** will appear. Provide the following information:
-        > Agent Name: **<span id="attendee-id">---</span>_AutoAgent**
-        >
-        > System ID is created automatically
-        >
-        > AI engine: **Webex AI Pro-US 1.0**
-        >
-        > Knowledge base: **<span id="attendee-id">---</span>_AI_KB**
+      > Agent Name: **<span id="attendee-id">---</span>_AutoAgent**
+      >
+      > System ID is created automatically
+      >
+      > AI engine: **Webex AI Pro-US 1.0**
     5. The **Agent's goal** section depends on what you want your AI Agent to do, but here's a recommended template:
       > You are a <Personality Prompt\> <Agent Type\> for <Company Name\> in the <Industry\> industry. You are especially skilled at <Agent Purpose\> for <Audience\>.
       >
@@ -113,9 +111,9 @@ Select one of the options and follow the instructions:
     
 
 
-??? webex "Create AI Agent using a template"
+??? webex "Create Autonomous AI Agent using a template"
     1. Navigate to **Dashboard** from the right-hand side menu panel and click **Create Agent**.
-    2. Select the template called **Doctor's appointment**. 
+    2. Select the Autonomous AI Agent template called **Doctor's appointment**. 
     3. A new section called **Add the essential details** will appear. Add your attendee ID at the end of the AI agent name **Doctor's appointment - <span id="attendee-id">---</span>** and  edit the **AI engine** field to **Webex AI Pro-US 1.0**.
     4. Click the option **Create**.
     4. Switch to **Knowledge** tab and from **Knowledge base** drop-down list select **<span id="attendee-id">---</span>_AI_KB**.

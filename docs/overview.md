@@ -11,7 +11,7 @@ Although the lab design and configuration examples could be used as a reference,
 ## Lab Access
 
 !!! Warning
-      In these series of labs you will be using the same tenant as other participants, please DO NOT make any changes unless specified in this guide. 
+      In these series of labs you will be using the same tenant as other participants, **DO NOT** make any changes unless specified in this guide. 
 
 You will be using Chrome profiles to move between the different contact center personas (admin, agent and supervisor). Each chrome profile has been pre-configured with the required credentials and bookmarks. 
 
@@ -23,7 +23,7 @@ You will be using Chrome profiles to move between the different contact center p
 
 Before you start working on the lab, click this button to generate a random Attendee ID. <button onclick="generateAttendeeId()">Generate Attendee ID</button>
 
-Your Attendee ID is: <span id="attendee-id">---</span>
+Your Attendee ID is: **<span id="attendee-id">---</span>**
 
 Open the Chrome Profile named "CX Labs Admin".
 

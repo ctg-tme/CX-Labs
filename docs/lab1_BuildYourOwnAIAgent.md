@@ -92,7 +92,7 @@ Select one of the options and follow the instructions:
       > | :--------:       | :-------:| :----: | :---------:  |
       > | name             | string   |    -   | Customer name |
       > | phone_number     | Phone    | **Use default regex**| A valid phone number with country code. 
-    16. In the **Webex Connect Flow Builder Fulfillment** section, select the **CCW_Admin_Flows** service and the flow **generate_OTP**. Save your changes. 
+    16. In the **Webex Connect Flow Builder Fulfillment** section, select the **CCW_Admin_Flows** service and the flow **generate_OTP**. Click the "Add" button. 
     14. click the **New action** button again, and proceed to name the action **validate_OTP**, add a description and select the action scope option called **Slot filling and fulfillment**. 
     15. Create new input entities for the data required to authenticate, these are the details for each entity:
     <br>
@@ -101,7 +101,7 @@ Select one of the options and follow the instructions:
       >| otp              | string   |    -   | The 6 digit OTP given by the customer |
       >| phone_number     | Phone    | **Use default regex**| A valid phone number with country code. |
       >| transaction      | string   |    -   | transid received in the authenticate_generate_OTP response. Do not ask the user for this |
-    16. In the **Webex Connect Flow Builder Fulfillment** section, select the **CCW_Admin_Flows** service and the flow **validate_OTP**. Save your changes. 
+    16. In the **Webex Connect Flow Builder Fulfillment** section, select the **CCW_Admin_Flows** service and the flow **validate_OTP**. Click the "Add" button.  
     17. You are ready to test your AI Agent. 
     <br>
     <br>

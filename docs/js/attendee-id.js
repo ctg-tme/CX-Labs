@@ -34,14 +34,14 @@ function generateAttendeeId() {
 
     // Keep generating until we find a unique ID
     do {
-        attendeeId = Math.floor(100 + Math.random() * 900);
+        attendeeId = Math.floor(1000 + Math.random() * 9000);
     } while (usedIds.has(attendeeId));
 
     // Add the generated ID to the set
     usedIds.add(attendeeId);
 
     // If more than 300 IDs are generated, reset the set to allow repeats
-    if (usedIds.size > 300) {
+    if (usedIds.size > 2000) {
         usedIds.clear(); // Clear the set to allow duplicates after 50 IDs
     }
 
@@ -63,3 +63,52 @@ document.addEventListener('navigation:resolve', () => {
     console.log('Soft navigation detected!');
     checkAndUpdateAttendeeId();
 });
+
+
+function createInitialSetup() {
+        // Retrieve the attendeeId from localStorage
+    const attendeeId = localStorage.getItem('attendeeId');
+
+    // Check if attendeeId exists
+    if (!attendeeId) {
+        alert("Error: Attendee ID is missing. Please generate it first.");
+        console.error("Error: Attendee ID is missing.");
+        return;
+    }
+    // Define the webhook URL
+    const webhookUrl = "https://hooks.us.webexconnect.io/events/BUUTVA1U9R";
+
+    // Define the payload
+    const payload = {
+        attendee_id: attendeeId // Add your attendee_id here if needed
+    };
+
+    // Make the POST request using fetch
+    fetch(webhookUrl, {
+        method: "POST", // HTTP method
+        headers: {
+            "Content-Type": "application/json" // Specify JSON content type
+        },
+        body: JSON.stringify(payload) // Convert payload to JSON string
+    })
+    .then(response => {
+        const messageElement = document.getElementById('setup-message');
+        if (response.ok) {
+            // If the request was successful
+            console.log("Webhook triggered successfully");
+            messageElement.style.color = 'green'; // Set message color to green for success
+            messageElement.textContent = "Setup successfully created!";
+        } else {
+            // If the request failed
+            console.error("Error triggering webhook:", response.statusText);
+            alert("Error triggering webhook: " + response.statusText);
+            messageElement.style.color = 'red'; // Set message color to red for errors
+            messageElement.textContent = "Error: " + response.statusText;
+        }
+    })
+    .catch(error => {
+        // Handle any network or unexpected errors
+        console.error("Request failed:", error);
+        alert("Request failed: " + error.message);
+    });
+}

@@ -30,8 +30,6 @@ Confirm your Team and Queue was configured in [Control Hub](https://admin.webex.
 
 ### Creating an IVR flow using **WxCC Flow Designer**. 
 
-WxCC flow designer is lalalala
-
 1. Navigate to the **Flows** page from the Customer Experience section in Control Hub. 
 2. Click the "Manage Flows" drop down on the right and select the option "Create Flows". 
 3. You will now see 3 options: **Start Fresh, Flow Templates or Import**. For the purpose of this lab, we will create our own flow (click **Start Fresh**), but keep in mind we do provide templates for this type of IVR flow. 

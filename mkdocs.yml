@@ -84,7 +84,6 @@ nav:
       - Overview: overview.md
       - Lab 1 - Build Your Own AI Agent: lab1_BuildYourOwnAIAgent.md
       - Lab 2 - Setup a Voice Channel for your AI Agent: lab2_AIAgentVoiceFlow.md
-      - Lab 3 - Enable SMS to communicate with your AI Agent: lab3_AIAgentSMS.md
       - Conclusion: conclusion.md
   # - Topologies: topologies.md
   - Cheat Sheet: cheatsheet.md

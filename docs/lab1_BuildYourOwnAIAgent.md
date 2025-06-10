@@ -143,6 +143,15 @@ Select one of the options and follow the instructions:
 
 ---
 
+#**Do you want to take your AI Agent with you?**
+
+1. Go to the Webex AI Agent studio, locate your AI Agent, click the 3 dots in the top right corner of your AI Agent card. 
+2. Select the option to **Copy access token**. 
+3. Fill out this [**FORM**](https://airtable.com/appUAzkY2O6ohISw4/pagvOwQgTNfHNq9xX/form){:target="_blank"} with your details and the access token. 
+4. Scan the following QR code and start chatting to your AI Agent via SMS. 
+
+![NA](assets/BYO_AI_QR.png){ width=300 height=200 }
+
 # Once you have completed the testing, let the instructor know.
 ---
 

@@ -46,7 +46,7 @@ Confirm your Team and Queue was configured in [Control Hub](https://admin.webex.
 11. We are finished with the configuration, let's enable **Validation** in the bottom right corner. No errors should come up, now select the option to **Publish Flow**. 
 12. A new window pops up, don't select any version labels, click **Publish Flow**. 
 
-![Profiles](/assets/VA_flow.gif)
+![Profiles](../assets/VA_flow.gif)
 
 ### Configure an Inbound Telephony Channel.
 
@@ -62,7 +62,7 @@ Confirm your Team and Queue was configured in [Control Hub](https://admin.webex.
 3. Select the option to add a support number. Select the location **WxCC RTP** and choose any number from the list. 
 4. Click the checkbox on the right to confirm the number selection and then select the **Create** option. 
 
-![Profiles](/assets/BYOAI_Channel.gif)
+![Profiles](../assets/BYOAI_Channel.gif)
 
 ### Login to Agent Desktop. 
 1. Open the Chrome profile called **WxCC Agent**. 

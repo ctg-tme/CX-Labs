@@ -84,7 +84,7 @@ nav:
       - Overview: overview.md
       - Lab 1 - Build Your Own AI Agent: lab1_BuildYourOwnAIAgent.md
       - Lab 2 - Setup a Voice Channel for your AI Agent: lab2_AIAgentVoiceFlow.md
-      - Conclusion: conclusion.md
+      # - Conclusion: conclusion.md
   # - Topologies: topologies.md
-  - Cheat Sheet: cheatsheet.md
+  # - Cheat Sheet: cheatsheet.md
   

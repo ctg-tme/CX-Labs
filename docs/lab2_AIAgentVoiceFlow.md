@@ -66,6 +66,9 @@ Confirm your Team and Queue was configured in [Control Hub](https://admin.webex.
 3. In the **Station Credentials** window, select the **Desktop** telephony option and team called **Team_<span id="attendee-id">---</span>**
 4. Set your status to available to receive a call while testing. 
 
+!!! Warning "Important"
+    Please double check that the correct Team was selected in your Agent Desktop. 
+
 You are ready to test your AI Agent over voice. 
 
 ---
